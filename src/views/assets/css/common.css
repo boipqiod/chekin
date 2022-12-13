@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex_column{
+    flex-direction: column;
+}
+
+.flex_row{
+    flex-direction: row;
+}
