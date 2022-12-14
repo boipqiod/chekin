@@ -1,4 +1,5 @@
-import { Container } from "../components";
+import { Container, Input } from "../components/index";
+import "../assets/css/index"
 
 interface PersonProps {
     name?: string;
@@ -7,12 +8,16 @@ interface PersonProps {
 export const SignIn = (props: PersonProps) =>{
     return (
         <>
-        <Container>
-            <Container.inner>
-                <div>
-                asd
-                </div>
-            </Container.inner>
+        <Container 
+        ClassName="wide center"
+        BackgroundColor="rgb(153, 181, 206)">
+            <Container.Inner>
+                <div
+                className="textLeft"
+                >email</div>
+                <Input/>
+                <Input/>
+            </Container.Inner>
         </Container>
         </>
     )

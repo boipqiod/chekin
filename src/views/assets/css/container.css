@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    overflow: hidden;
+}
+
+.wide{
+    width: 100%;
+    height: 100%;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.Inner{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,14 +1,28 @@
-.container{
-    display: flex;
-
+body{
+    margin: 0;
+    padding: 0;
     width: 100vw;
     height: 100vh;
 }
 
-.flex_column{
-    flex-direction: column;
+
+.Input{
+    padding: 8px 16px;
+    margin: 20px;
+
+    background-color: rgb(153, 181, 206);
+
+    font-size: 18px;
 }
 
-.flex_row{
-    flex-direction: row;
+.textCenter{
+    text-align: center;
+}
+
+.textLeft{
+    text-align: left;
+}
+
+.textRight{
+    text-align: right;
 }
