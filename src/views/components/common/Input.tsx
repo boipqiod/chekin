@@ -18,7 +18,6 @@ const Input = (props:InputProps) =>{
     >
         { props.lable && 
             <label
-            style={{marginBottom:"-15px", marginLeft:"25px"}}
             >{props.lable}</label>
         }
         <input 
@@ -32,6 +31,7 @@ const Input = (props:InputProps) =>{
 
 interface ButtonProps extends CommonProps{
     title?: string
+    onClick?: React.MouseEventHandler<HTMLButtonElement>
 }
 
 const Button = (props: ButtonProps) =>{
@@ -42,6 +42,7 @@ const Button = (props: ButtonProps) =>{
         <>
             <button
             className="Button"
+            onClick={props.onClick}
             >{title}
             </button>
         </>
